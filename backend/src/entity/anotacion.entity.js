@@ -38,14 +38,7 @@ const AnotacionSchema = new EntitySchema({
       },
       onDelete: "CASCADE",
     },
-  },
-  indices: [
-    {
-      name: "IDX_ANOTACION",
-      columns: ["id_anotacion"],
-      unique: true,
-    },
-  ],
+  }
 });
 
 export default AnotacionSchema;
